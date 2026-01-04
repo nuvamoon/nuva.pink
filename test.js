@@ -1,7 +1,7 @@
 const bubbleText = document.querySelector('#bubble-text');
 bubbleText.textContent = "* "; //we initialize the text of the bubble with an asterisk
 
-const text = "hello world!";
+const text = "hi, im nuva";
 
 
 
@@ -17,3 +17,8 @@ Array.from(text).forEach(
         )
     }
 );
+
+function redirect() {
+            window.location.href = 
+                "https://bsky.app/profile/nuvamoon.bsky.social";
+        }

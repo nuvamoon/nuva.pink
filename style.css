@@ -19,6 +19,8 @@
 
 }
 
+
+
 .weirdfont {
   font-family: "VT323", serif;
   font-weight: 400;
@@ -30,11 +32,13 @@
 
 #txt {
   font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
 }
 
 
-body {
-  background-color: rgb(9, 3, 26);
+body{ 
+  background-image: url("./bg.png");
 }
 
 
@@ -62,3 +66,47 @@ body {
   align-items: center;
   height: 300px;
 }
+
+#aboutme1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#aboutme2 {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#bsky-button {
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+button {
+ padding-left: 33px;
+ padding-right: 33px;
+ padding-bottom: 16px;
+ padding-top: 16px;
+ border-radius: 9px;
+ background:#8ac5ec;
+ border:none;
+ font-family: "VT323", serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 2rem;
+ color:aliceblue;
+ cursor: pointer;
+ transition: 0.3s;
+
+}
+ 
+button:hover {
+  box-shadow: 7px 5px 56px -14px #d5d3f7;
+  
+}
+
+
