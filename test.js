@@ -19,6 +19,8 @@ Array.from(text).forEach(
 );
 
 function redirect() {
-            window.location.href = 
-                "https://bsky.app/profile/nuvamoon.bsky.social";
+            window.open("https://bsky.app/profile/nuvamoon.bsky.social", "")
+                
         }
+
+        document.getElementById("button1").addEventListener("click", redirect)

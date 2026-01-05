@@ -1,0 +1,65 @@
+body { 
+    background-color: rgb(84, 84, 136);
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(75, 148, 231);
+    outline: 2px solid rgb(27, 81, 143);
+    padding: 8px;
+    border-radius: 20px;
+    color: rgb(235, 241, 247);
+    font-weight: bold;
+    transition:box-shadow 0.3s, outline 0.3s;
+   
+    
+}
+
+a:hover {
+    box-shadow: 0 0 20px 8px rgba(27, 81, 143, 0.521);
+    outline: 4px solid rgb(27, 81, 143);
+
+}
+
+.coolfont {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+    "wdth";
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 2rem;
+    gap: 30px;
+}
+
+#container {
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    background-color: rgb(2, 1, 43);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("stars.png");
+    background-repeat: repeat;
+    background-size: 300px 300px;
+
+}
+
+#erm2 {
+    height: 400px;
+  
+    mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+              linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+    mask-composite: intersect;;
+}
